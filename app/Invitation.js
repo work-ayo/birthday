@@ -466,13 +466,13 @@ export default function Invitation({ galleryPhotos = [] }) {
           {musicOn ? "음악 끄기" : "음악 켜기"}
         </span>
       </button>
-      <span className="sr-only" aria-live="polite">
+      {/* <span className="sr-only" aria-live="polite">
         {musicError
           ? "배경 음악 파일을 불러오지 못했습니다."
           : musicOn
             ? "배경 음악이 재생 중입니다."
             : "배경 음악이 꺼졌습니다."}
-      </span>
+      </span> */}
       <button
         className={`top-button ${
           showTop ? "visible" : ""
