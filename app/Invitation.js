@@ -34,12 +34,12 @@ function Calendar() {
   return (
     <div className="calendar" aria-label="2026년 11월 달력">
       <div className="calendar-month">
-        <span>NOVEMBER</span>
+        {/* <span>NOVEMBER</span> */}
+        <span>2026</span>
         <strong>11</strong>
-        <em>2026</em>
       </div>
       <div className="weekdays">
-        {["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"].map(
+        {["일", "월", "화", "수", "목", "금", "토"].map(
           (day) => (
             <b key={day}>{day}</b>
           ),
@@ -320,11 +320,11 @@ export default function Invitation({ galleryPhotos = [] }) {
           <div className="event-card">
             <div>
               <span>DATE</span>
-              <strong>2026. 11. 01 SUN</strong>
+              <strong>2026. 11. 01 일요일</strong>
             </div>
             <div>
               <span>TIME</span>
-              <strong>5:00 PM</strong>
+              <strong>오후 5시</strong>
             </div>
             <div>
               <span>PLACE</span>
