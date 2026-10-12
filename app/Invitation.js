@@ -286,7 +286,7 @@ export default function Invitation({ galleryPhotos = [] }) {
           <p className="eyebrow">세아의 첫번째 생일</p>
           <div className="hero-photo">
             <img
-              src="/11.jpeg"
+              src="/6.jpeg"
               alt="한복을 입고 웃고 있는 아기의 돌사진"
             />
           </div>
